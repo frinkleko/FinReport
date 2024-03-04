@@ -1,5 +1,5 @@
 # FinReport: Explainable Stock Earnings Forecasting via News Factor Analyzing Model
-PyTorch implementation for [WWW'2024] "FinReport: Explainable Stock Earnings Forecasting via News Factor Analyzing Model"
+PyTorch implementation for [WWW'2024] ["FinReport: Explainable Stock Earnings Forecasting via News Factor Analyzing Model"](FinReport_WWW_CR.pdf)
 
 ![Framework](imgs/framework.png)
 
