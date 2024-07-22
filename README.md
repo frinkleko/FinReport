@@ -7,3 +7,27 @@ PyTorch implementation for [WWW'2024] ["FinReport: Explainable Stock Earnings Fo
 
 ## Example Reports
 ![Example Reports](imgs/report.png)
+
+## Obtaining Factors
+There are two ways to get the factors:
+
+### First Way
+The first way relies on the `stockstats` library, which is a wrapper for pandas dataframes. 
+```bash
+pip install stockstats
+```
+Commonly you can input a pandas dataframe with the following columns: `['date', 'open', 'close', 'high', 'low', 'volume']`to use the `wrap` function to get the factors. 
+```python
+import pandas as pd
+from stockstats import wrap
+
+data = pd.read_csv('stock.csv')
+df = wrap(data)
+```
+Check the [documentation for stockstats](https://github.com/jealous/stockstats) for more details.
+More details and examples can also be found in [`src/Tech_Indicators.py`](./src/Tech_Indicators.py).
+
+### Second Way
+The second way to obtain the factors is to API from platforms like IFind, which provides a variety of factors. We recommend using this method to obtain more factors more esaily.
+
+Codes are available in [`src/IFind_Indicators.py`](./src/IFind_Indicators.py). You can run it after filling the `access_token` in Line 10, customizing necessary parameters of `form_data` in Line 14.
