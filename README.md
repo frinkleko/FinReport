@@ -6,7 +6,7 @@ PyTorch implementation for [WWW'2024] ["FinReport: Explainable Stock Earnings Fo
 ![Framework](imgs/framework.png)
 
 ## ​Important Notice​  
-This repository contains a ​**demonstration version**​ of the code and data, designed to help readers understand the model architecture and workflow. Due to commercial agreements and technical confidentiality constraints after the publication of the paper, we are unable to open-source the full implementation or the complete dataset used in the experiments. The provided code and data are for illustrative purposes only and ​**do not represent the actual implementation or dataset used in the paper**.  
+This repository contains a ​**demonstration version**​ of the code and data, designed to help readers understand the model architecture and workflow. Due to commercial agreements and technical confidentiality constraints after the publication of the paper, we are unable to open-source the full implementation or the complete dataset used in the experiments. The provided code and data are for illustrative purposes only and ​do not represent the actual implementation or dataset used in the paper.  
 
 ## Example Reports
 ![Example Reports](imgs/report.png)
